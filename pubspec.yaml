@@ -1,0 +1,44 @@
+name: bloc_pattern
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  http: ^0.13.3
+  async: ^2.6.0
+  dio: ^4.0.0
+  device_info: ^2.0.2
+  shared_preferences: ^2.0.8
+  image_picker: ^0.8.4+2
+  rxdart: ^0.27.2
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+
+  fonts:
+    - family: TikiIsland
+      fonts:
+        - asset: assets/fonts/tiki_island_bold.ttf
+          weight: 700
+    - family: Helvetica
+      fonts:
+        - asset: assets/fonts/helvetica_regular.ttf
+          weight: 400
